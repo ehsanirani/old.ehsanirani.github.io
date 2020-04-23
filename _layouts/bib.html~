@@ -89,7 +89,7 @@
 
     <span class="link">
     {% if entry.desc %}
-    <p style="color:darkred; font-weight:bold;">* {{entry.desc}}</p>
+    <p style="color:darkred; font-weight:bold;">{{entry.desc}}</p>
     {% endif %}
     </span>
   <!-- Hidden abstract block -->
